@@ -3,7 +3,9 @@ function main(){
     const incrementButton = document.querySelector('#increment-button');
     const decrementButton = document.querySelector('#decrement-button');
 
-    let countValue = 0;
+
+    fetch('localhost')
+    let countValue = 10;
 
     function increment(){
         countValue++;
